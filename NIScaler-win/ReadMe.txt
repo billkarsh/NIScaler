@@ -24,6 +24,7 @@ Parameters:
 Notes:
 - An NIScaler-run can 'create_cal' alone or 'apply' alone, or do both in one run.
 - Command line params can be listed in any order; 'create_cal' is done before 'apply'.
+- Before create_cal, quit SpikeGLX to release all NI devices.
 - Apply finds and acts upon all nidq.bin/meta files in src_dir.
 - Apply adds a metadata item 'NIScaler=date'.
 - Apply skips files if {version >= 20220101, no cal data for that product, meta item 'NIScaler' present}.
