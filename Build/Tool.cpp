@@ -476,7 +476,7 @@ void Plan::apply( qint16 *d, int ntpts, const Coeff &K1, const Coeff &K2 ) const
                 V *= d[ic];
             }
 
-            d[ic] = V2I * (V + C[0]);
+            d[ic] = qBound( SHRT_MIN, int(V2I * (V + C[0])), SHRT_MAX );
         }
     }
 }

@@ -39,6 +39,9 @@ Notes:
 
 Change Log
 ----------
+Version 1.1
+- Fix rollover at saturation voltage.
+
 Version 1.0
 - Initial release.
 
