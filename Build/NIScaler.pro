@@ -45,6 +45,6 @@ QMAKE_TARGET_COMPANY = Bill Karsh
 QMAKE_TARGET_PRODUCT = NIScaler
 QMAKE_TARGET_DESCRIPTION = Corrects SpikeGLX NI voltages
 QMAKE_TARGET_COPYRIGHT = (c) 2022, Bill Karsh, All rights reserved
-VERSION = 1.0
+VERSION = 1.1
 
 
